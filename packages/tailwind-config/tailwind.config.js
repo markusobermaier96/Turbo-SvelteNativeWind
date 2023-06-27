@@ -1,18 +1,18 @@
-const colors = require("tailwindcss/colors");
+const colors = require('tailwindcss/colors');
 
 module.exports = {
   content: [
     // app content
-    `src/**/*.{html,js,svelte,ts}`,
+    `src/**/*.{html,js,svelte,ts}`
   ],
   theme: {
     extend: {
       colors: {
         branddark: '#504848',
         brandlight: '#ffffff',
-        brandred: colors.red[500],
-      },
-    },
+        brandred: colors.red[500]
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };
